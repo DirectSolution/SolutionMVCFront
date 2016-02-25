@@ -1,0 +1,30 @@
+{
+    "name": "solutionhost/solution-mvc",
+    "description": "Solution Host simple MVC",
+    "type": "PHP",
+    "authors": [
+        {
+            "name": "Doug Hayward",
+            "email": "doug@hsdirect.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        
+        "vrana/notorm" : "dev-master"
+        
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "SolutionMvc\\": "Application/",
+            "SolutionMvc\\Core\\": "Application/Core",
+            "SolutionMvc\\Library\\": "Application/Libs",
+            "SolutionMvc\\Model\\": "Application/Model",
+            "SolutionMvc\\View\\": "Application/View",
+            "SolutionMvc\\Controller\\": "Application/Controller",
+            "SolutionMvc\\Config\\": "Application/Config"
+            }
+    }
+
+}

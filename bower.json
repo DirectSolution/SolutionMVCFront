@@ -1,0 +1,19 @@
+{
+  "name": "solution-mvc",
+  "description": "Solution host simple mvc",
+  "main": "/public/index.php",
+  "authors": [
+    "Doug"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/DirectSolution/SolutionMVC",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
